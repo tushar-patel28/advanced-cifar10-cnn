@@ -1,0 +1,56 @@
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+tensorflow/
+autogen_env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Model files (too large for git)
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.weights
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files
+*.tar.gz
+cifar-10-batches-py/
+
+# Logs
+*.log
+
+# Images
+*.png
+*.jpg
+*.jpeg
+
+# Temporary files
+*~
